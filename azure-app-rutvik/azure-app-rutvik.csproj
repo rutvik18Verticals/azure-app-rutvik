@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_rutvik</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/68e231f9-4677-4dd9-9584-4d4e241371c5/resourceGroups/az-course-rg/providers/microsoft.insights/components/azure-app-rutvik</ApplicationInsightsResourceId>
+    <UserSecretsId>ff9bb552-106e-4e55-998a-da0d60549ef7</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights" Version="2.22.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
